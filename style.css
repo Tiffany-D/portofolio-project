@@ -1,8 +1,13 @@
-img{
-    width: 766px;
-    height: 759px;
+.img-thumbnail{
+   max-width: 100%;
+
 }
 
 .linkedin{
     text-align: center;
+}
+
+h2{
+    font-size: 10px;
+    color: blue;
 }
