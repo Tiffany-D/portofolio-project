@@ -3,11 +3,78 @@
 
 }
 
-.linkedin{
-    text-align: center;
+.lkd{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ff5d9e;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    flex: 1;
+    
+}
+.mail{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ff5d9e;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
 }
 
+.github{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ff5d9e;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5{
+   
+    font-family: 'Poppins', sans-serif;
+    
+}
+h3,h4,h5{
+    color: #068b78;
+}
 h2{
-    font-size: 10px;
-    color: blue;
+  color: blue;  
+   font-size: 10px;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.weather-button{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ff5d9e;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+.dict-button{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ff5d9e;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.hp-button{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ff5d9e;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
 }
