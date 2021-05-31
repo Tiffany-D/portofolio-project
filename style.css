@@ -1,25 +1,39 @@
+:root{
+    --primary-color:#ff5d9e;
+}
+
+
+
 .img-thumbnail{
    max-width: 100%;
 
 }
 
-.btn btn-primary{
+.linkedin{
     color: #fff;
     font-family: 'Poppins', sans-serif;
-    background-color: #ff5d9e;
-    border-radius: 20px;
-    border: none;
-    padding: 5px;
+    background-color:var(--primary-color);
+     border-radius: 20px;
+    border: 1px solid #ff5d9e;
     flex: 1;
     
 }
+
+
 .mail{
     color: #fff;
     font-family: 'Poppins', sans-serif;
     background-color: #ff5d9e;
     border: none;
+    text-decoration: none;
     border-radius: 20px;
     padding: 10px;
+}
+
+.mail:hover{
+    cursor: pointer;
+    background-color: #068b78;
+    color: #fff;
 }
 
 .github{
@@ -29,6 +43,16 @@
     border: none;
     border-radius: 20px;
     padding: 10px;
+}
+
+.github:hover{
+    cursor: pointer;
+    background-color: #068b78;
+    color: #fff;
+    
+}
+.SheCodes{
+    color: #068b78;
 }
 a{
     color: #fff;
