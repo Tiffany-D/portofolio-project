@@ -37,20 +37,12 @@
 }
 
 .github{
-    color: #fff;
+    color:black;
     font-family: 'Poppins', sans-serif;
-    background-color: #ff5d9e;
-    border: none;
-    border-radius: 20px;
-    padding: 10px;
+  
 }
 
-.github:hover{
-    cursor: pointer;
-    background-color: #068b78;
-    color: #fff;
-    
-}
+
 .SheCodes{
     color: #068b78;
 }
