@@ -10,24 +10,18 @@
 }
 
 .linkedin{
-    color: #fff;
+    color: black;
     font-family: 'Poppins', sans-serif;
-    background-color:var(--primary-color);
-     border-radius: 20px;
-    border: 1px solid #ff5d9e;
+    
     flex: 1;
     
 }
 
 
 .mail{
-    color: #fff;
+    color: black;
     font-family: 'Poppins', sans-serif;
-    background-color: #ff5d9e;
-    border: none;
-    text-decoration: none;
-    border-radius: 20px;
-    padding: 10px;
+   
 }
 
 .mail:hover{
