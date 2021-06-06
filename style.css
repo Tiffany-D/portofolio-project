@@ -2,7 +2,12 @@
     --primary-color:#ff5d9e;
 }
 
-
+body{
+    background-color: #fcf8f3;
+}
+nav{
+    color: #068b78;
+}
 .about-section{
     font-family: 'Poppins', sans-serif;
 }
@@ -18,28 +23,17 @@
 ul{
    list-style: none; 
 }
-.img-thumbnail{
-   max-width: 100%;
-
-}
-
-.linkedin{
-    color: black;
-    font-family: 'Poppins', sans-serif;
-    
-    flex: 1;
-    
-}
-
-
 
 
 .SheCodes{
     color: #068b78;
 }
 a{
-    
+    color: #feffdf;
     text-decoration: none;
+}
+a:hover{
+    color: #feffdf;
 }
 
 h1,h2,h3,h4,h5{
@@ -59,7 +53,6 @@ p{
 }
 
 .weather-button{
-    color: #fff;
     font-family: 'Poppins', sans-serif;
     background-color: #ff5d9e;
     border: none;
@@ -69,7 +62,6 @@ p{
 }
 
 .dict-button{
-    color: #fff;
     font-family: 'Poppins', sans-serif;
     background-color: #ff5d9e;
     border: none;
@@ -78,7 +70,6 @@ p{
 }
 
 .hp-button{
-    color: #fff;
     font-family: 'Poppins', sans-serif;
     background-color: #ff5d9e;
     border: none;
