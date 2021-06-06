@@ -3,7 +3,21 @@
 }
 
 
+.about-section{
+    font-family: 'Poppins', sans-serif;
+}
 
+.contact-section{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+ul{
+   list-style: none; 
+}
 .img-thumbnail{
    max-width: 100%;
 
@@ -18,30 +32,13 @@
 }
 
 
-.mail{
-    color: black;
-    font-family: 'Poppins', sans-serif;
-   
-}
-
-.mail:hover{
-    cursor: pointer;
-    background-color: #068b78;
-    color: #fff;
-}
-
-.github{
-    color:black;
-    font-family: 'Poppins', sans-serif;
-  
-}
 
 
 .SheCodes{
     color: #068b78;
 }
 a{
-    color: #fff;
+    
     text-decoration: none;
 }
 
