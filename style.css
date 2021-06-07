@@ -76,3 +76,20 @@ p{
     border-radius: 20px;
     padding: 10px;
 }
+
+.contact-button{
+    border: 1px solid #ff5d9e;
+    border-radius: 7px;
+    padding: 15px;
+    color: #fcf8f3;
+    background: #ff5d9e;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.contact-box{
+    margin: 100px;
+    margin-left: 200px;
+    padding: 15px;
+    border: 1px solid #ff5d9e;
+    border-radius: 7px;
+}
