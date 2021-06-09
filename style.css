@@ -18,8 +18,12 @@ nav{
     flex-direction: column;
     text-align: center;
     
+    
 }
-
+.photo{
+    margin-left: 150px;
+    
+}
 ul{
    list-style: none; 
 }
@@ -35,11 +39,19 @@ a{
 a:hover{
     color: #feffdf;
 }
-
+.link-github{
+    color: #3b0944;
+}
+a.link-github:hover{
+    color: #645fce;
+}
 h1,h2,h3,h4,h5,h6,h7{
    
     font-family: 'Poppins', sans-serif;
     
+}
+h3,h4,h5{
+    font-size: 20px;
 }
 h3,h4,h5,h7{
     color: #068b78;
@@ -92,15 +104,18 @@ p{
     color: #fcf8f3;
     background: #ff5d9e;
     font-family: 'Poppins', sans-serif;
+    border: none;
     
 }
 .contact-box{
     display: flex;
     justify-content: center;
     padding: 15px;
+    background: #f5e1da;
+    border-radius: 6px;
    
 }
-@media(max-width:600px){
+@media(max-width:500px){
     h1,h2,h6{
        text-align: center; 
     }
@@ -109,9 +124,10 @@ p{
     flex-direction: column;
 }
 .contact-button{
-    display: inline;
-    justify-content: center;
+   display: block;
+   margin: 0 auto;
 }
+
 p{
     text-align: center;
 }
