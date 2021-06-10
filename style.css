@@ -115,6 +115,10 @@ p{
     border-radius: 6px;
    
 }
+.introduction{
+    margin: 15px;
+    padding: 10px;
+}
 @media(max-width:500px){
     h1,h2,h6{
        text-align: center; 
@@ -130,6 +134,10 @@ p{
 
 p{
     text-align: center;
+}
+.introduction{
+   margin: 3px;
+   padding: 18px;
 }
 .projects-section{
     flex-direction:column;
