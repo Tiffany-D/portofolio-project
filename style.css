@@ -1,5 +1,6 @@
 :root{
     --primary-color:#ff5d9e;
+    --secondary-color:#feffdf;
 }
 
 body{
@@ -33,7 +34,7 @@ ul{
     color: #068b78;
 }
 a{
-    color: #feffdf;
+    color: var(--secondary-color);
     text-decoration: none;
 }
 a:hover{
@@ -115,9 +116,9 @@ p{
     border-radius: 6px;
    
 }
-.introduction{
-    margin: 15px;
-    padding: 10px;
+.introduction p{
+    margin: 20px;
+    padding: 30px;
 }
 @media(max-width:500px){
     h1,h2,h6{
@@ -131,14 +132,15 @@ p{
    display: block;
    margin: 0 auto;
 }
+.introduction p{
+    margin: 30px;
 
+    padding: 20px;
+}
 p{
     text-align: center;
 }
-.introduction{
-   margin: 3px;
-   padding: 13px;
-}
+
 .projects-section{
     flex-direction:column;
 }
