@@ -6,8 +6,28 @@
 body{
     background-color: #fcf8f3;
 }
-nav{
-    color: #068b78;
+nav {
+    padding:20px 0;
+    background-color:#fafafa ;
+}
+nav ul{
+    padding: 0;
+    margin: 10px;
+}
+nav li{
+    display: inline;
+    line-height: 40px;
+    margin-left: 10px;
+}
+nav a{
+    color: #3b0944;
+}
+nav a:hover{
+    color: #645fce;
+}
+.logo {
+    max-width: 110px;
+    
 }
 .about-section{
     font-family: 'Poppins', sans-serif;
@@ -143,5 +163,12 @@ p{
 
 .projects-section{
     flex-direction:column;
+} 
+nav li{
+margin: 7px;
+line-height: 0;
+}
+.logo{
+    max-width: 40px;
 }
 }
